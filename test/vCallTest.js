@@ -43,7 +43,7 @@ describe('v-call', function () {
 
     await asleep(100)
 
-    await actor.close()
+    await actor.disconnect()
 
     await server.close()
   })
@@ -55,12 +55,12 @@ describe('v-call', function () {
       sayHi (...msg) {
         return ['Hi', ...msg].join(', ')
       }
-    }, 'jp.realglobe.example01')
+    }, 'jp.realglobe.v-call.test.example01')
 
     await client.connect(`https://v.realglobe.work`)
 
     equal(
-      (await vCall('jp.realglobe.example01', 'sayHi', 'From Test', 'yes', {
+      (await vCall('jp.realglobe.v-call.test.example01', 'sayHi', 'From Test', 'yes', {
         protocol: 'https', hostname: 'v.realglobe.work'
       })).trim(),
       'Hi, From Test, yes',

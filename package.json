@@ -1,6 +1,6 @@
 {
   "name": "v-call",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "Command line interface of v-spot-client",
   "main": "lib",
   "bin": {
@@ -34,8 +34,9 @@
   "dependencies": {
     "argx": "^3.0.2",
     "commander": "^2.12.1",
+    "debug": "^3.1.0",
     "v-spot": "^1.2.0",
-    "v-spot-ws": "^1.0.7"
+    "v-spot-ws": "^1.0.9"
   },
   "devDependencies": {
     "aport": "^2.0.0",
