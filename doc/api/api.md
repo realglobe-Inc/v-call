@@ -1,23 +1,18 @@
-# v-call@1.0.0
+# v-call@1.0.1
 
 CLI caller for v
 
 + Functions
-  + [create(args)](#v-call-function-create)
+  + [clientFor()](#v-call-function-client-for)
 + [`vCall`](#v-call-classes) Class
-  + [new vCall()](#v-call-classes-v-call-constructor)
+  + [new vCall(subject, verb, object)](#v-call-classes-v-call-constructor)
 
 ## Functions
 
-<a class='md-heading-link' name="v-call-function-create" ></a>
+<a class='md-heading-link' name="v-call-function-client-for" ></a>
 
-### create(args) -> `vCall`
+### clientFor()
 
-Create a vCall instance
-
-| Param | Type | Description |
-| ----- | --- | -------- |
-| args | * |  |
 
 
 
@@ -32,10 +27,15 @@ Create a vCall instance
 
 <a class='md-heading-link' name="v-call-classes-v-call-constructor" ></a>
 
-### new vCall()
+### new vCall(subject, verb, object)
 
 Constructor of vCall class
 
+| Param | Type | Description |
+| ----- | --- | -------- |
+| subject | string | Subject id |
+| verb | string | Verb to invoke |
+| object | string | Method arguments |
 
 
 

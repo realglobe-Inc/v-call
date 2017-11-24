@@ -87,8 +87,7 @@ v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
 API Guide
 -----
 
-+ [v-call@1.0.0](./doc/api/api.md)
-  + [create(args)](./doc/api/api.md#v-call-function-create)
++ [v-call@1.0.1](./doc/api/api.md)
   + [vCall](./doc/api/api.md#v-call-class)
 
 
@@ -114,8 +113,10 @@ This software is released under the [MIT License](https://github.com/realglobe-I
 Links
 ------
 
-+ [THE Labo][t_h_e_labo_url]
++ [v][v_url]
++ [Realglobe, Inc.][realglobe,_inc__url]
 
-[t_h_e_labo_url]: https://github.com/the-labo
+[v_url]: https://github.com/realglobe-Inc/v
+[realglobe,_inc__url]: http://realglobe.jp
 
 <!-- Links End -->
