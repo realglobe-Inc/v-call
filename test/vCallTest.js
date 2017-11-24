@@ -11,7 +11,8 @@ const aport = require('aport')
 
 const {ok, equal} = require('assert')
 
-describe('v-call', () => {
+describe('v-call', function () {
+  this.timeout(80000)
   before(() => {
   })
 
@@ -47,8 +48,25 @@ describe('v-call', () => {
     await server.close()
   })
 
-  it('via v.realglobe.work', async () => {
-    
+  it('Use v.realglobe.work', async () => {
+    const client = vSpotWS.client()
+
+    client.load({
+      sayHi (...msg) {
+        return ['Hi', ...msg].join(', ')
+      }
+    }, 'jp.realglobe.example01')
+
+    await client.connect(`https://v.realglobe.work`)
+
+    equal(
+      (await vCall('jp.realglobe.example01', 'sayHi', 'From Test', 'yes', {
+        protocol: 'https', hostname: 'v.realglobe.work'
+      })).trim(),
+      'Hi, From Test, yes',
+    )
+
+    await client.disconnect()
   })
 })
 
