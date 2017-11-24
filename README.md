@@ -93,6 +93,7 @@ v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
     -V, --version                output the version number
     -H, --hostname [hostname]    List available tasks
     -p, --port [port]            Port number
+    -P, --protocol [protocol]    Protocol
     -c, --connector [connector]  connection type
     -h, --help                   output usage information
 
@@ -107,7 +108,7 @@ v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
 API Guide
 -----
 
-+ [v-call@1.0.5](./doc/api/api.md)
++ [v-call@1.0.6](./doc/api/api.md)
   + [vCall](./doc/api/api.md#v-call-class)
 
 

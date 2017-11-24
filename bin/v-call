@@ -17,6 +17,7 @@ program
   .description(pkg[ 'description' ])
   .option('-H, --hostname [hostname]', 'List available tasks')
   .option('-p, --port [port]', 'Port number')
+  .option('-P, --protocol [protocol]', 'Protocol')
   .option('-c, --connector [connector]', 'connection type')
 program.parse(process.argv)
 
@@ -24,6 +25,7 @@ program.parse(process.argv)
 vCall.apply(vCall, program.args.concat({
   hostname: program.hostname,
   port: program.port,
+  protocol: program.protocol,
   connector: program.connector})
 ).catch(handleError)
 
