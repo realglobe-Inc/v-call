@@ -1,0 +1,41 @@
+{
+  "name": "v-call",
+  "main": true,
+  "args": [
+    {
+      "name": "subject",
+      "desc": "Target subject name"
+    },
+    {
+      "name": "verb",
+      "desc": "Verb to invoke"
+    },
+    {
+      "name": "object",
+      "desc": "Method arguments"
+    }
+  ],
+  "options": [
+    {
+      "name": "hostname",
+      "short": "H",
+      "type": "string",
+      "optional": true,
+      "desc": "List available tasks"
+    },
+    {
+      "name": "port",
+      "short": "p",
+      "type": "string",
+      "optional": true,
+      "desc": "Port number"
+    },
+    {
+      "name": "connector",
+      "short": "c",
+      "optional": true,
+      "type": "string",
+      "desc": "connection type"
+    }
+  ]
+}
