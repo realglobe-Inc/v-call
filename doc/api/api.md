@@ -1,6 +1,6 @@
 # v-call@1.0.2
 
-CLI caller for v
+Command line interface of v-spot-client
 
 + Functions
   + [clientFor()](#v-call-function-client-for)

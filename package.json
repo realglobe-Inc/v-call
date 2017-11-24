@@ -1,7 +1,7 @@
 {
   "name": "v-call",
   "version": "1.0.2",
-  "description": "CLI caller for v",
+  "description": "Command line interface of v-spot-client",
   "main": "lib",
   "bin": {
     "v-call": "bin/v-call"
