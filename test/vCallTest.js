@@ -8,6 +8,8 @@ const vCall = require('../lib/vCall')
 const vSpotWS = require('v-spot-ws/lib/create')
 const asleep = require('asleep')
 const aport = require('aport')
+const vCallBin = require.resolve('../bin/v-call')
+const {exec} = require('child_process')
 
 const {ok, equal} = require('assert')
 
@@ -58,6 +60,18 @@ describe('v-call', function () {
     }, 'jp.realglobe.v-call.test.example01')
 
     await client.connect(`https://v.realglobe.work`)
+    await asleep(100)
+
+    await new Promise((resolve) =>
+      exec(
+        `${vCallBin} "jp.realglobe.v-call.test.example01" "sayHi" "From Test" "yes" -P https -H v.realglobe.work`,
+        (err, stdout) => {
+          ok(!err)
+          equal(stdout.trim(), 'Hi, From Test, yes')
+          resolve()
+        }
+      )
+    )
 
     equal(
       (await vCall('jp.realglobe.v-call.test.example01', 'sayHi', 'From Test', 'yes', {
@@ -65,6 +79,8 @@ describe('v-call', function () {
       })).trim(),
       'Hi, From Test, yes',
     )
+
+    await asleep(1100)
 
     await client.disconnect()
   })
