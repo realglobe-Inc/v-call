@@ -71,12 +71,32 @@ $ npm install v-call -g
 Usage
 ---------
 
-```javascript
+```bash
 #!/bin/bash
+#
+## Example to call v-spot subject from Command line
 
 v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
 ```
 
+### CLI Help
+
+```bash
+
+  Usage: v-call [options] <subject> <verb> <object> 
+
+  CLI caller for v
+
+
+  Options:
+
+    -V, --version                output the version number
+    -H, --hostname [hostname]    List available tasks
+    -p, --port [port]            Port number
+    -c, --connector [connector]  connection type
+    -h, --help                   output usage information
+
+```
 
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 
@@ -87,7 +107,7 @@ v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
 API Guide
 -----
 
-+ [v-call@1.0.1](./doc/api/api.md)
++ [v-call@1.0.2](./doc/api/api.md)
   + [vCall](./doc/api/api.md#v-call-class)
 
 

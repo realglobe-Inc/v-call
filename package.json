@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "description": "CLI caller for v",
   "main": "lib",
+  "bin": {
+    "v-call": "bin/v-call"
+  },
   "browser": "shim",
   "scripts": {
     "build": "the-script-build",

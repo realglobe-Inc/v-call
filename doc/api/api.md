@@ -1,4 +1,4 @@
-# v-call@1.0.1
+# v-call@1.0.2
 
 CLI caller for v
 
