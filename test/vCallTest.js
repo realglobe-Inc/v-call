@@ -46,6 +46,10 @@ describe('v-call', () => {
 
     await server.close()
   })
+
+  it('via v.realglobe.work', async () => {
+    
+  })
 })
 
 /* global describe, before, after, it */
