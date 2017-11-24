@@ -1,11 +1,11 @@
-# v-call@1.0.2
+# v-call@1.0.3
 
 Command line interface of v-spot-client
 
 + Functions
   + [clientFor()](#v-call-function-client-for)
 + [`vCall`](#v-call-classes) Class
-  + [new vCall(subject, verb, object)](#v-call-classes-v-call-constructor)
+  + [new vCall(subject, verb, object, options)](#v-call-classes-v-call-constructor)
 
 ## Functions
 
@@ -27,7 +27,7 @@ Command line interface of v-spot-client
 
 <a class='md-heading-link' name="v-call-classes-v-call-constructor" ></a>
 
-### new vCall(subject, verb, object)
+### new vCall(subject, verb, object, options)
 
 Constructor of vCall class
 
@@ -36,6 +36,7 @@ Constructor of vCall class
 | subject | string | Subject id |
 | verb | string | Verb to invoke |
 | object | string | Method arguments |
+| options | Object |  |
 
 
 

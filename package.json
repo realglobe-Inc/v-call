@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/realglobe-Inc/v-call#readme",
   "dependencies": {
+    "argx": "^3.0.2",
     "commander": "^2.12.1",
     "v-spot": "^1.2.0",
     "v-spot-ws": "^1.0.7"
