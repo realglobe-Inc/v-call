@@ -1,6 +1,6 @@
 {
   "name": "v-call",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI caller for v",
   "main": "lib",
   "browser": "shim",

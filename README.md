@@ -58,7 +58,7 @@ Installation
 -----
 
 ```bash
-$ npm install v-call --save
+$ npm install v-call -g
 ```
 
 
@@ -72,16 +72,9 @@ Usage
 ---------
 
 ```javascript
-'use strict'
+#!/bin/bash
 
-const vCall = require('v-call')
-
-async function tryExample () {
-
-}
-
-tryExample().catch((err) => console.error(err))
-
+v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
 ```
 
 

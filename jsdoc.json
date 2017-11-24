@@ -1,46 +1,20 @@
 {
     "functions": [
         {
-            "name": "create",
+            "name": "clientFor",
             "access": "",
             "virtual": false,
-            "description": "Create a vCall instance",
-            "parameters": [
-                {
-                    "name": "args",
-                    "type": "*",
-                    "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "vCall",
-                "description": ""
-            }
+            "description": "",
+            "parameters": [],
+            "examples": []
         },
         {
-            "name": "create",
+            "name": "clientFor",
             "access": "",
             "virtual": false,
-            "description": "Create a vCall instance",
-            "parameters": [
-                {
-                    "name": "args",
-                    "type": "*",
-                    "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "vCall",
-                "description": ""
-            }
+            "description": "",
+            "parameters": [],
+            "examples": []
         }
     ],
     "classes": [
@@ -54,7 +28,32 @@
             "constructor": {
                 "name": "vCall",
                 "description": "",
-                "parameters": [],
+                "parameters": [
+                    {
+                        "name": "subject",
+                        "type": "string",
+                        "description": "Subject id",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    },
+                    {
+                        "name": "verb",
+                        "type": "string",
+                        "description": "Verb to invoke",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    },
+                    {
+                        "name": "object",
+                        "type": "string",
+                        "description": "Method arguments",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    }
+                ],
                 "examples": []
             }
         },
@@ -68,7 +67,32 @@
             "constructor": {
                 "name": "vCall",
                 "description": "",
-                "parameters": [],
+                "parameters": [
+                    {
+                        "name": "subject",
+                        "type": "string",
+                        "description": "Subject id",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    },
+                    {
+                        "name": "verb",
+                        "type": "string",
+                        "description": "Verb to invoke",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    },
+                    {
+                        "name": "object",
+                        "type": "string",
+                        "description": "Method arguments",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    }
+                ],
                 "examples": []
             }
         }
