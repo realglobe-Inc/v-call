@@ -52,6 +52,14 @@
                         "default": "",
                         "optional": "",
                         "nullable": ""
+                    },
+                    {
+                        "name": "options",
+                        "type": "Object",
+                        "description": "",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
                     }
                 ],
                 "examples": []
@@ -88,6 +96,14 @@
                         "name": "object",
                         "type": "string",
                         "description": "Method arguments",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    },
+                    {
+                        "name": "options",
+                        "type": "Object",
+                        "description": "",
                         "default": "",
                         "optional": "",
                         "nullable": ""
