@@ -12,7 +12,8 @@
     },
     {
       "name": "object",
-      "desc": "Method arguments"
+      "desc": "Method arguments",
+      "multiple": true
     }
   ],
   "options": [
