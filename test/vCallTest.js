@@ -75,7 +75,9 @@ describe('v-call', function () {
 
     equal(
       (await vCall('jp.realglobe.v-call.test.example01', 'sayHi', 'From Test', 'yes', {
-        protocol: 'https', hostname: 'v.realglobe.work'
+        protocol: 'https',
+        hostname: 'v.realglobe.work',
+        verbose: true
       })).trim(),
       'Hi, From Test, yes',
     )
