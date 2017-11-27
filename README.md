@@ -95,7 +95,7 @@ v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
     -p, --port [port]            Port number
     -P, --protocol [protocol]    Protocol
     -c, --connector [connector]  connection type
-    -v, --verbose [verbose]      Verbose
+    -v, --verbose [verbose]      Shows verbose log
     -h, --help                   output usage information
 
 ```
