@@ -12,9 +12,9 @@ const pkg = require('../package')
 const vCall = require('../lib')
 
 program
-  .version(pkg['version'])
+  .version(pkg[ 'version' ])
   .usage('[options] <subject> <verb> <object ...> ')
-  .description(pkg['description'])
+  .description(pkg[ 'description' ])
   .option('-H, --hostname [hostname]', 'List available tasks')
   .option('-p, --port [port]', 'Port number')
   .option('-P, --protocol [protocol]', 'Protocol')
@@ -23,11 +23,10 @@ program.parse(process.argv)
 
 // Run main command
 vCall.apply(vCall, program.args.concat({
-    hostname: program.hostname,
-    port: program.port,
-    protocol: program.protocol,
-    connector: program.connector
-  })
+  hostname: program.hostname,
+  port: program.port,
+  protocol: program.protocol,
+  connector: program.connector})
 ).catch(handleError)
 
 // Handlers

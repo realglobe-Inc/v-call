@@ -83,7 +83,7 @@ v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
 
 ```bash
 
-  Usage: v-call [options] <subject> <verb> <object> 
+  Usage: v-call [options] <subject> <verb> <object ...> 
 
   Command line interface of v-spot-client
 
@@ -108,7 +108,7 @@ v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
 API Guide
 -----
 
-+ [v-call@1.1.3](./doc/api/api.md)
++ [v-call@1.2.0](./doc/api/api.md)
   + [vCall](./doc/api/api.md#v-call-class)
 
 
