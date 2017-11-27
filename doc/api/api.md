@@ -1,4 +1,4 @@
-# v-call@1.2.0
+# v-call@1.2.1
 
 Command line interface of v-spot-client
 

@@ -44,6 +44,13 @@
       "optional": true,
       "type": "string",
       "desc": "connection type"
+    },
+    {
+      "name": "verbose",
+      "short": "v",
+      "optional": true,
+      "type": "boolean",
+      "desc": "Shows verbose log"
     }
   ]
 }

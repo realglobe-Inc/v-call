@@ -19,6 +19,7 @@ program
   .option('-p, --port [port]', 'Port number')
   .option('-P, --protocol [protocol]', 'Protocol')
   .option('-c, --connector [connector]', 'connection type')
+  .option('-v, --verbose [verbose]', 'Shows verbose log')
 program.parse(process.argv)
 
 // Run main command
@@ -26,7 +27,8 @@ vCall.apply(vCall, program.args.concat({
   hostname: program.hostname,
   port: program.port,
   protocol: program.protocol,
-  connector: program.connector})
+  connector: program.connector,
+  verbose: program.verbose})
 ).catch(handleError)
 
 // Handlers

@@ -95,6 +95,7 @@ v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
     -p, --port [port]            Port number
     -P, --protocol [protocol]    Protocol
     -c, --connector [connector]  connection type
+    -v, --verbose [verbose]      Verbose
     -h, --help                   output usage information
 
 ```
@@ -108,7 +109,7 @@ v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
 API Guide
 -----
 
-+ [v-call@1.2.0](./doc/api/api.md)
++ [v-call@1.2.1](./doc/api/api.md)
   + [vCall](./doc/api/api.md#v-call-class)
 
 
