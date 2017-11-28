@@ -1,97 +1,93 @@
 {
-    "classes": [
+    "functions": [
         {
             "name": "vCall",
-            "description": "",
-            "extends": [],
             "access": "",
             "virtual": false,
-            "fires": "",
-            "constructor": {
-                "name": "vCall",
-                "description": "",
-                "parameters": [
-                    {
-                        "name": "subject",
-                        "type": "string",
-                        "description": "Subject id",
-                        "default": "",
-                        "optional": "",
-                        "nullable": ""
-                    },
-                    {
-                        "name": "verb",
-                        "type": "string",
-                        "description": "Verb to invoke",
-                        "default": "",
-                        "optional": "",
-                        "nullable": ""
-                    },
-                    {
-                        "name": "object",
-                        "type": "string",
-                        "description": "Method arguments",
-                        "default": "",
-                        "optional": "",
-                        "nullable": ""
-                    },
-                    {
-                        "name": "options",
-                        "type": "Object",
-                        "description": "",
-                        "default": "",
-                        "optional": "",
-                        "nullable": ""
-                    }
-                ],
-                "examples": []
+            "description": "Call remote v subject verb",
+            "parameters": [
+                {
+                    "name": "subject",
+                    "type": "string",
+                    "description": "Subject id",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "verb",
+                    "type": "string",
+                    "description": "Verb to invoke",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "object",
+                    "type": "string",
+                    "description": "Method arguments",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "options",
+                    "type": "Object",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Promise",
+                "description": ""
             }
         },
         {
             "name": "vCall",
-            "description": "",
-            "extends": [],
             "access": "",
             "virtual": false,
-            "fires": "",
-            "constructor": {
-                "name": "vCall",
-                "description": "",
-                "parameters": [
-                    {
-                        "name": "subject",
-                        "type": "string",
-                        "description": "Subject id",
-                        "default": "",
-                        "optional": "",
-                        "nullable": ""
-                    },
-                    {
-                        "name": "verb",
-                        "type": "string",
-                        "description": "Verb to invoke",
-                        "default": "",
-                        "optional": "",
-                        "nullable": ""
-                    },
-                    {
-                        "name": "object",
-                        "type": "string",
-                        "description": "Method arguments",
-                        "default": "",
-                        "optional": "",
-                        "nullable": ""
-                    },
-                    {
-                        "name": "options",
-                        "type": "Object",
-                        "description": "",
-                        "default": "",
-                        "optional": "",
-                        "nullable": ""
-                    }
-                ],
-                "examples": []
+            "description": "Call remote v subject verb",
+            "parameters": [
+                {
+                    "name": "subject",
+                    "type": "string",
+                    "description": "Subject id",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "verb",
+                    "type": "string",
+                    "description": "Verb to invoke",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "object",
+                    "type": "string",
+                    "description": "Method arguments",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "options",
+                    "type": "Object",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Promise",
+                "description": ""
             }
         }
     ]
