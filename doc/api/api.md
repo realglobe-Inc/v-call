@@ -1,18 +1,12 @@
-# v-call@1.2.4
+# v-call@1.2.5
 
 Command line interface of v-spot-client
 
 + Functions
-  + [clientFor()](#v-call-function-client-for)
 + [`vCall`](#v-call-classes) Class
   + [new vCall(subject, verb, object, options)](#v-call-classes-v-call-constructor)
 
 ## Functions
-
-<a class='md-heading-link' name="v-call-function-client-for" ></a>
-
-### clientFor()
-
 
 
 
