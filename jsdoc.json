@@ -1,22 +1,4 @@
 {
-    "functions": [
-        {
-            "name": "clientFor",
-            "access": "",
-            "virtual": false,
-            "description": "",
-            "parameters": [],
-            "examples": []
-        },
-        {
-            "name": "clientFor",
-            "access": "",
-            "virtual": false,
-            "description": "",
-            "parameters": [],
-            "examples": []
-        }
-    ],
     "classes": [
         {
             "name": "vCall",
