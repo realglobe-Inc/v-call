@@ -109,8 +109,7 @@ v-call "jp.realglobe.example01" "sayHi" "Nice day" -H "v-cloud.com"
 API Guide
 -----
 
-+ [v-call@1.2.6](./doc/api/api.md)
-  + [vCall](./doc/api/api.md#v-call-class)
++ [v-call@1.2.7](./doc/api/api.md)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->

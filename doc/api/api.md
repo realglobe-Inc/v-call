@@ -1,29 +1,17 @@
-# v-call@1.2.6
+# v-call@1.2.7
 
 Command line interface of v-spot-client
 
 + Functions
-+ [`vCall`](#v-call-classes) Class
-  + [new vCall(subject, verb, object, options)](#v-call-classes-v-call-constructor)
+  + [vCall(subject, verb, object, options)](#v-call-function-v-call)
 
 ## Functions
 
+<a class='md-heading-link' name="v-call-function-v-call" ></a>
 
+### vCall(subject, verb, object, options) -> `Promise`
 
-<a class='md-heading-link' name="v-call-classes"></a>
-
-## `vCall` Class
-
-
-
-
-
-
-<a class='md-heading-link' name="v-call-classes-v-call-constructor" ></a>
-
-### new vCall(subject, verb, object, options)
-
-Constructor of vCall class
+Call remote v subject verb
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -31,6 +19,7 @@ Constructor of vCall class
 | verb | string | Verb to invoke |
 | object | string | Method arguments |
 | options | Object |  |
+
 
 
 
